@@ -1,0 +1,11 @@
+overwrite: true
+schema: 'https://api-sa-east-1.hygraph.com/v2/cldapywf6014o01ul01o128ro/master'
+documents: 'src/graphql/queries.ts'
+generates:
+  src/graphql/generated/graphql.ts:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+
+      - add:
+        content: '/* eslint-disable */'
