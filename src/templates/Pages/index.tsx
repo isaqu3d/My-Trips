@@ -2,6 +2,7 @@ import * as S from './styles';
 
 import { CloseOutline } from '@styled-icons/evaicons-outline/CloseOutline';
 import LinkWrapper from 'components/LinkWrapper';
+import { NextSeo } from 'next-seo';
 
 export type PageTemplateProps = {
   heading: string;
@@ -10,17 +11,25 @@ export type PageTemplateProps = {
 
 const PagesTemplate = ({ heading, body }: PageTemplateProps) => {
   return (
-    <S.Content>
-      <LinkWrapper href="/">
-        <CloseOutline size={32} />
-      </LinkWrapper>
+    <>
+      <NextSeo
+        title="About - My trips "
+        description="about the site"
+        canonical="https://isaque-my-trips.vercel.app"
+      />
 
-      <S.Heading>{heading}</S.Heading>
+      <S.Content>
+        <LinkWrapper href="/">
+          <CloseOutline size={32} />
+        </LinkWrapper>
 
-      <S.Body>
-        <div dangerouslySetInnerHTML={{ __html: body }} />
-      </S.Body>
-    </S.Content>
+        <S.Heading>{heading}</S.Heading>
+
+        <S.Body>
+          <div dangerouslySetInnerHTML={{ __html: body }} />
+        </S.Body>
+      </S.Content>
+    </>
   );
 };
 
