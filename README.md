@@ -1,19 +1,24 @@
+# My Trips
 
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/icon-192.png)
+Hello everyone, this is my website where I put all the places I visited and that I would like to visit, I put some
+photos and things I like about these places. Hope you like!
 
+![X-SpeedBlack-X](https://img.shields.io/badge/x--speedBlack--x-blue?style=for-the-badge&logo=react)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Leaflet](https://img.shields.io/badge/leaflet-116600?style=for-the-badge&logo=leaflet&logoColor=FFB880)
+![Mapbox](https://img.shields.io/badge/mapbox-2875C5?style=for-the-badge&logo=mapbox&logoColor=3D59FF)
+[![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e&style=for-the-badge)](https://github.com/styled-components/styled-components)
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
-## What is inside?
+# 🛠 Technologies used
 
-This project uses lot of stuff as:
-
-- [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
