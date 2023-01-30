@@ -1,3 +1,4 @@
+import { StickyNote } from 'components/StickyNote';
 import { NextSeo } from 'next-seo';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
@@ -29,6 +30,12 @@ function App({ Component, pageProps }: AppProps) {
         height={3}
       />
       <Component {...pageProps} />
+      <StickyNote>
+        <p>
+          Criado com ❤️ por{' '}
+          <a href="https://github.com/x-SpeedBlack-X">X-SpeedBlack-X</a>
+        </p>
+      </StickyNote>
     </>
   );
 }
