@@ -34,4 +34,4 @@ jobs:
         run: yarn test:ci
 
       - name: Build
-        run: yarn build
+        run: yarn run build
